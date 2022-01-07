@@ -5,7 +5,8 @@
 
 using namespace std;
 
-struct scan_info {
+struct scan_info
+{
 	string model; // наименование модели 
 	int price; // цена
 	double x_size; // горизонтальный размер области сканирования
@@ -13,8 +14,6 @@ struct scan_info {
 	int optr; // оптическое разрешение
 	int grey; // число градаций серого
 };
-
-
 
 std::ostream& operator <<(std::ostream& scan_fyle, const vector<scan_info>& records)
 {
