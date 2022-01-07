@@ -82,7 +82,7 @@ int main()
 	setlocale(LC_ALL, "Rus");
     int numRecord;
 
-	ofstream fout("C:\\Users\\mrgam\\source\\repos\\newoutput.bin", ios_base::binary | ios_base::out);
+	ofstream fout("newoutput.bin", ios_base::binary | ios_base::out);
 	vector<scan_info> records
 	{   
 		{"Scaner1", 1000 ,2.5 ,3.4 ,20 ,500},
